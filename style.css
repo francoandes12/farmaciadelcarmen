@@ -58,27 +58,29 @@ p{
     width: 100%
 }
 .inicio img{
-    width: 100%;
+    width: 80%;
     height: 300px;
 }
 @media screen and (min-width:768px){
     .inicio{
-        width: 100%;
+        width: 10%;
     }
     .inicio img{
         width: 100%;
         height: auto;
     }
 }
-table{
+.footer{
+    display: flex;
     color: whitesmoke;
-    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    background: black;
+    bottom: 0%;
+    position: absolute;
+    align-items: center;
     width: 100%;
     padding: 20px;
-    text-align: center;
-}
-table td{
-    font-size: 'Open Sans', sans-serif;
+    justify-content: center;
 }
 .contenedor{
     background-color: black;
