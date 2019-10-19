@@ -65,24 +65,26 @@ p {
     justify-content: center;
 }
 
-.inicio {
-    width: 100%;
+#inicio {
+    padding: 10px;
+    background: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.codigo{
+    padding: 10px;
+    color: #fff;
+    margin: 10px;
+    width: 35%;
+    min-width: 300px;
+    background: grey;
 }
 
-.inicio img {
-    width: 80%;
+.codigo img {
+    width: 300px;
     height: 300px;
-}
-
-@media screen and (min-width:768px) {
-    .inicio {
-        width: 10%;
-    }
-
-    .inicio img {
-        width: 100%;
-        height: auto;
-    }
 }
 
 .footer {
@@ -93,7 +95,7 @@ p {
     bottom: 0%;
     position: relative;
     align-items: center;
-    width: 100%;
+    width: 96%;
     padding: 10px;
     justify-content: center;
 }
@@ -107,7 +109,7 @@ p {
         bottom: 0%;
         position: absolute;
         align-items: center;
-        width: 100%;
+        width: 98%;
         padding: 10px;
         justify-content: center;
     }
