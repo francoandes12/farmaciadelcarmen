@@ -5,6 +5,7 @@ body {
 nav {
     background-color: black;
     color: #003900;
+    box-shadow: 10px 10px #888888;
 }
 
 nav ul {
@@ -16,6 +17,7 @@ nav ul {
 nav ul li {
     padding: 20px;
     font-family: 'Raleway', sans-serif;
+    text-shadow: 5px 2px 4px black;
 }
 
 nav ul li:hover {
@@ -45,7 +47,7 @@ nav ul a {
 
 a {
     text-decoration: none;
-    color: #003900;
+    color: red;
 }
 
 
@@ -63,6 +65,8 @@ p {
 .logo {
     display: flex;
     justify-content: center;
+    width: 100%;
+    background-color: white;
 }
 
 #inicio {
@@ -125,6 +129,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-around;
     position: relative;
+    border-radius: 40px;
 }
 
 h1 {
@@ -138,6 +143,7 @@ h1 {
     width: 100%;
     margin: 5px;
     background: grey;
+    border-radius: 30px;
 }
 
 @media screen and (min-width:768px) {
@@ -155,4 +161,15 @@ h1 {
 
 .stock1 img {
     width: 100px;
+}
+.box{
+    padding: 10px;
+    border: 3px solid wheat ;
+}
+.box p{
+    color: white;
+    font-size: 20px;
+}
+p.box{
+    text-align: center;
 }
