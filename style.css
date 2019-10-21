@@ -90,35 +90,6 @@ p {
     width: 300px;
     height: 300px;
 }
-
-.footer {
-    display: flex;
-    color: whitesmoke;
-    font-family: 'Open Sans', sans-serif;
-    background: black;
-    bottom: 0%;
-    position: relative;
-    align-items: center;
-    width: 96%;
-    padding: 10px;
-    justify-content: center;
-}
-
-@media screen and (min-width:768px) {
-    .footer {
-        display: flex;
-        color: whitesmoke;
-        font-family: 'Open Sans', sans-serif;
-        background: black;
-        bottom: 0%;
-        position: absolute;
-        align-items: center;
-        width: 98%;
-        padding: 10px;
-        justify-content: center;
-    }
-}
-
 .contenedor {
     background-color: black;
     display: flex;
