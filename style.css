@@ -113,6 +113,7 @@ h1 {
     color: #fff;
     width: 100%;
     margin: 5px;
+    height: auto;
     background: grey;
     border-radius: 30px;
 }
@@ -127,11 +128,15 @@ h1 {
         background: grey;
         max-width: 560px;
         min-width: 300px;
+        text-align: center;
     }
 }
 
 .stock1 img {
-    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 .box{
     padding: 10px;
@@ -143,4 +148,9 @@ h1 {
 }
 p.box{
     text-align: center;
+}
+.panelred{
+    background-color: red;
+    padding: 10px;
+    font-size: 1em;
 }
