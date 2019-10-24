@@ -60,7 +60,7 @@ var clave="delcarmen";
 var ingreso=prompt("Ingrese la clave para acceder a esta seccion!","password");
 if(clave != ingreso){
         alert("Contraseña Incorrecta!, sera redirigido al Inicio");
-        setTimeout("redireccionar()",3000);
+        setTimeout("redireccionar()",0000);
     }
 function redireccionar(){
     window.location="https://francoandes12.github.io/farmaciadelcarmen/index.html";
