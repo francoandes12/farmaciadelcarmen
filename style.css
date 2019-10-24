@@ -17,11 +17,10 @@ nav ul {
 nav ul li {
     padding: 20px;
     font-family: 'Raleway', sans-serif;
-    text-shadow: 5px 2px 4px black;
 }
 
 nav ul li:hover {
-    background-color: #A8733D;
+    background-color: rgb(189, 12, 12);
 }
 
 nav ul a {
