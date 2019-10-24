@@ -150,7 +150,12 @@ p.box{
     text-align: center;
 }
 .panelred{
-    background-color: red;
+    background-color: rgba(0, 255, 64, 0.685);
     padding: 10px;
     font-size: 1em;
+}
+.panelred1{
+    background-color: red;
+    padding: 21px;
+    font-size: 1.5em;
 }
