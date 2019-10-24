@@ -12,7 +12,6 @@ var tiempo = setInterval(function(){
         document.getElementById("CuentaRegresiva").innerHTML = "sin stock";
     } 
 },0000);
-
 var countDownDate1 = new Date("November 31, 2019 00:00:00").getTime();
 var tiempo1 = setInterval(function(){
     var now1= new Date().getTime();
@@ -27,9 +26,6 @@ var tiempo1 = setInterval(function(){
         document.getElementById("CuentaRegresiva1").innerHTML = "sin stock";
     } 
 },0000);
-
-
-
 var countDownDate3 = new Date("April 31, 2020 00:00:00").getTime();
 var tiempo3 = setInterval(function(){
     var now3= new Date().getTime();
@@ -59,3 +55,14 @@ var tiempo5 = setInterval(function(){
         document.getElementById("CuentaRegresiva5").innerHTML = "sin stock";
     } 
 },0000);
+//restriccion
+var clave="delcarmen";
+var ingreso=prompt("Ingrese la clave para acceder a esta seccion!","password");
+if(clave != ingreso){
+        alert("Contraseña Incorrecta!, sera redirigido al Inicio");
+        setTimeout("redireccionar()",3000);
+    }
+function redireccionar(){
+    window.location="https://francoandes12.github.io/farmaciadelcarmen/index.html";
+}
+//aviso por si se esta por vencer algun medicamento
