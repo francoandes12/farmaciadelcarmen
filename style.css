@@ -1,6 +1,9 @@
 body {
     background-color: #1E496B;
 }
+html{
+    height: 100%;
+}
 
 nav {
     background-color: black;
@@ -162,4 +165,24 @@ p.box{
 }
 #imagen2{
     transform: rotate(90deg);
+}
+.clasetabla{
+    width: 80%;
+    background-color: grey;
+}
+@media screen and (min-width:400px){
+    .clasetabla{
+        width: 100%;
+    }
+    .clasetabla th{
+        display: none;
+    }
+}
+footer{
+    background-color: grey;
+}
+.contenedorfooter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
