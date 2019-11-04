@@ -1,4 +1,4 @@
-var countDownDate = new Date("October 31, 2019 00:00:00").getTime();
+var countDownDate = new Date("November 20, 2019 00:00:00").getTime();
 var tiempo = setInterval(function(){
     var now= new Date().getTime();
     var diferencia = countDownDate - now;
@@ -6,13 +6,13 @@ var tiempo = setInterval(function(){
     var horas= Math.floor((diferencia %(1000*60*60*24))/(1000*60*60));
     var minutos= Math.floor((diferencia %(1000*60*60))/(1000*60));
     var segundos= Math.floor((diferencia %(1000*60))/1000);
-    document.getElementById("CuentaRegresiva").innerHTML = "<h3>"+ dias + " D " + horas + " H " + minutos + " M " + segundos + " S " + "</h3>";
-    if(diferencia<0){
+document.getElementById("CuentaRegresiva").innerHTML = "<h3>"+ dias + " D " + horas + " H " + minutos + " M " + segundos + " S " + "</h3>";
+if (dias < 60 ){
         clearInterval(tiempo);
-        document.getElementById("CuentaRegresiva").innerHTML = "sin stock";
-    } 
-},0000);
-var countDownDate1 = new Date("November 31, 2019 00:00:00").getTime();
+        setInterval( ' alert("Se esta por vencer Actron!")',60000); 
+    }
+},1000);
+var countDownDate1 = new Date("January 31, 2020 00:00:00").getTime();
 var tiempo1 = setInterval(function(){
     var now1= new Date().getTime();
     var diferencia1 = countDownDate1 - now1;
@@ -21,11 +21,11 @@ var tiempo1 = setInterval(function(){
     var minutos1= Math.floor((diferencia1 %(1000*60*60))/(1000*60));
     var segundos1= Math.floor((diferencia1 %(1000*60))/1000);
     document.getElementById("CuentaRegresiva1").innerHTML = "<h3>"+ dias1 + " D " + horas1 + " H " + minutos1 + " M " + segundos1 + " S " + "</h3>";
-    if(diferencia1<0){
+if(diferencia1<0){
         clearInterval(tiempo1);
-        document.getElementById("CuentaRegresiva1").innerHTML = "sin stock";
+        document.getElementById("CuentaRegresiva1").innerHTML = "se esta por vencer..";
     } 
-},0000);
+},1000);
 var countDownDate3 = new Date("April 31, 2020 00:00:00").getTime();
 var tiempo3 = setInterval(function(){
     var now3= new Date().getTime();
@@ -37,9 +37,9 @@ var tiempo3 = setInterval(function(){
     document.getElementById("CuentaRegresiva3").innerHTML = "<h3>"+ dias3 + " D " + horas3 + " H " + minutos3 + " M " + segundos3 + " S " + "</h3>";
     if(diferencia3<0){
         clearInterval(tiempo3);
-        document.getElementById("CuentaRegresiva3").innerHTML = "sin stock";
+        document.getElementById("CuentaRegresiva3").innerHTML = "se esta por vencer";
     } 
-},0000);
+},1000);
 
 var countDownDate5 = new Date("January 31, 2020 00:00:00").getTime();
 var tiempo5 = setInterval(function(){
@@ -52,9 +52,9 @@ var tiempo5 = setInterval(function(){
     document.getElementById("CuentaRegresiva5").innerHTML = "<h3>"+ dias5 + " D " + horas5 + " H " + minutos5 + " M " + segundos5 + " S " + "</h3>";
     if(diferencia5<0){
         clearInterval(tiempo5);
-        document.getElementById("CuentaRegresiva5").innerHTML = "sin stock";
+        document.getElementById("CuentaRegresiva5").innerHTML = "se esta por vencer";
     } 
-},0000);
+},1000);
 //restriccion
 var clave="delcarmen";
 var ingreso=prompt("Ingrese la clave para acceder a esta seccion!","password");

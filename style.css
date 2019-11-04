@@ -186,3 +186,7 @@ footer{
     display: flex;
     justify-content: center;
 }
+.c12{
+    background-image:url('fondo.jpg');
+    height: 100%;
+}
