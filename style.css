@@ -189,4 +189,6 @@ footer{
 .c12{
     background-image:url('fondo.jpg');
     height: 100%;
+    width: 100%;
+    border: 10px solid black;
 }
